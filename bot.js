@@ -68,7 +68,7 @@ bot.command('remindme', (ctx) => {
 bot.launch();
 console.log('Fitness bot is running...🚀💪');
 
-app.post(`/bot`, (req, res) => {
+app.get('', (req, res) => {
     res.send({message:"Hello World"});
 });
 
